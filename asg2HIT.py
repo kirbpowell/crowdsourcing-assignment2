@@ -48,9 +48,10 @@ def main():
     reward = Price(amount=0.25)                     # reward for HIT completion
 
     create_hit_result = connection.create_hit(
-        title='Your title here',
-        description='Your description here.',
-        keywords=['your', 'keywords', 'here'],
+        title='Count Recognizable People in Pictures',
+        description='Count how many *recognizable* people are in some pictures',
+        keywords=['count', 'people', 'pictures',
+                  'simple', 'easy', 'quick', 'label', 'classification'],
         max_assignments=10,                             # number of assignments
         lifetime=datetime.timedelta(days=2),            # time HIT is available
         duration=datetime.timedelta(minutes=5),         # time to complete
