@@ -42,7 +42,7 @@ def main():
 
     # make the HIT
     question = ExternalQuestion(
-        external_url='https://your-url-here',                # URL to serve HIT
+        external_url='https://kirbpowell.github.io/crowdsourcing-assignment2/',                # URL to serve HIT
         frame_height=600)                                     # height of frame
 
     reward = Price(amount=0.25)                     # reward for HIT completion
